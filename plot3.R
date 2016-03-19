@@ -1,6 +1,6 @@
 source('fetch_data.R')
 
-png(filename='plot3.png')
+png(filename = 'plot3.png')
 with(energy_data, plot(
     DateTime,
     Sub_metering_1,

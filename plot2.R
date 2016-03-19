@@ -1,6 +1,7 @@
 source('fetch_data.R')
 
-png(filename='plot2.png')
+png(filename = 'plot2.png')
+
 with(energy_data, plot(
     DateTime,
     Global_active_power,
@@ -8,4 +9,5 @@ with(energy_data, plot(
     xlab = '',
     ylab = 'Global active power (kilowatts)'
 ))
+
 dev.off()
