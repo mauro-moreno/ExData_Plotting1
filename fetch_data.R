@@ -1,3 +1,5 @@
+setwd('./')
+
 # Check if dataset was already downloaded.
 if (file.exists('data.zip') == FALSE) {
     # URL of the dataset for downloading.
@@ -40,4 +42,3 @@ if (exists('energy_data') == FALSE) {
     
     rm(dataset)
 }
-
